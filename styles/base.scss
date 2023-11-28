@@ -1,0 +1,58 @@
+$black-color: #1d1d1f;
+$white-color: #7e8287;
+$yellow-color: #f5d547;
+$light-error-color: #99221eed;
+$error-color: #99221e;
+$shadow-1: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+.btn_primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    gap: 5px;
+    background: $black-color;
+    outline: 0.1px solid $black-color;
+    color: $white-color;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+        color: $black-color;
+        background: $white-color;
+    }
+}
+
+.btn_outlined{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 2px;
+    outline: 0.1px solid $black-color;
+    background: $white-color;
+    color: $black-color;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+        color: $white-color;
+        background: $black-color;
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.error{
+    color:#99221e;
+    padding: 10px;
+    padding-left: 5px;
+}
+.success{
+    color:rgb(31, 153, 31);
+    padding: 10px;
+}
